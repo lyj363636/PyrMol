@@ -17,3 +17,7 @@ Create an environment relied on Python packages:
 conda env create -f environment.yml
 ```
 
+## Data
+we select ten benchmark molecular datasets for experiments from MolecularNet[23] including Blood-brain barrier permeability
+(BBBP), BACE, HIV, ClinTox, Tox21, SIDER, and Toxcast for classification tasks, and ESOL, Freesolv,
+and Lipophilicity for regression tasks. These data are saved in Filefold "Datasets"

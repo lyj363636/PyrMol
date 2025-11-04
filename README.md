@@ -40,7 +40,15 @@ conda env create -f environment.yml
 ## Data
 we select ten benchmark molecular datasets for experiments from MolecularNet[23] including Blood-brain barrier permeability
 (BBBP), BACE, HIV, ClinTox, Tox21, SIDER, and Toxcast for classification tasks, and ESOL, Freesolv,
-and Lipophilicity for regression tasks. These data are saved in Filefold "Datasets"
+and Lipophilicity for regression tasks. These data are saved in folder "Datasets.zip".
+
+First, you unzip the folder "Datasets.zip"
+
+Then, use code to split the data and save in the folder. We provide an data demo  "bbbp" folder in "Datasets". 
+```sh
+python data_slit.py
+```
+
 
 ## Training
 Run the codes in PyrMol_demo:

@@ -51,6 +51,8 @@ python data_slit.py
 
 
 ## Training
+Before training codes, you need write the correct data files path in PyrMol/dataset_configs.json.
+
 Run the codes in PyrMol_demo:
 
 ```python

@@ -1,6 +1,6 @@
-# Multi-knowledge Driven Heterogeneous Pyramid Model for Enhancing Molecular Property Prediction
+# PyrMol: A Knowledge-Structured Pyramid Graph Framework for Generalizable Molecular Property Prediction
 ## Introduction
-PryMol is a novel heterogeneous pyramid framework for molecular property prediction, which contains three main components: Heterogeneous Pyramid Message Passing Neural Network, Multiple Knowledge Enhancement and Fusion Module, and Hierarchical Contrastive Learning Strategy.
+PryMol is a novel heterogeneous pyramid framework for molecular property prediction, which contains three main components: Heterogeneous Pyramid Message Passing Neural Network, Multi-source Knowledge Enhancement and Fusion Module, and Hierarchical Contrastive Learning Strategy.
 
 <div align=center>
 <img src="./PyrMol.jpg" alt="TOC" align=center />

@@ -60,4 +60,4 @@ python main_train.py
 ```
 
 ## Models
-Our model provided in filefold: Models
+You can save Model in your file path.

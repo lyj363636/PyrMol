@@ -1,9 +1,9 @@
 # PyrMol: A Knowledge-Structured Pyramid Graph Framework for Generalizable Molecular Property Prediction
 ## Introduction
-PryMol is a novel heterogeneous pyramid framework for molecular property prediction, which contains three main components: Heterogeneous Pyramid Message Passing Neural Network, Multi-source Knowledge Enhancement and Fusion Module, and Hierarchical Contrastive Learning Strategy.
+PryMol is a novel heterogeneous pyramid framework for molecular property prediction, which contains five modules: A. Heterogeneous Pyramid; B. HeterGraph Update; C. Knowledge Fusion; D. Hierarchical Contrast; E.Property Prediction. For a molecular, firstly, the heterogeneous pyramid molecular graph is formalized for Atom-level, Sub-leve, and Mol-level in A module. Then, heterogeneous node updates are performed in B module. Thirly, enhancement and fusion of substructure graphs guided by multi-source knowledge and generate Fuse-embedding in C module, and unifying the embedding dimension of Atom-embedding and Mol-embedding. Fourthly, hierarchical contrastive learning is performed among them in D module. Finally, the features from the three levels are concatenated and fed into the downstream task E. module to predict molecular properties. 
 
 <div align=center>
-<img src="./PyrMol.jpg" alt="TOC" align=center />
+<img src="./PyrMol3.jpg" alt="TOC" align=center />
 </div>
 
 ## Preparation

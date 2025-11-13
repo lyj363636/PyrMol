@@ -42,17 +42,33 @@ conda env create -f environment.yml
 ```
 
 ## Data
-we select ten benchmark molecular datasets for experiments from MolecularNet[23] including Blood-brain barrier permeability
-(BBBP), BACE, HIV, ClinTox, Tox21, SIDER, and Toxcast for classification tasks, and ESOL, Freesolv,
-and Lipophilicity for regression tasks. These data are saved in folder "Datasets.zip".
+<p align="justify">
 
-First, you unzip the folder "Datasets.zip"
+To ensure a fair and robust comparison, we have conducted 25 repeated experiments with scaffold splitting using different random seeds. All benchmark datasets have been split as training, validation, and test sets with a ratio of 0.8/0.1/0.1.
 
-Then, use code to split the data and save in the folder. We provide an data demo  "bbbp" folder in "Datasets". 
+We select ten benchmark molecular datasets for experiments including Blood-brain barrier permeability(BBBP), BACE, HIV, ClinTox, Tox21, SIDER, and Toxcast for classification tasks, and ESOL, Freesolv, and Lipophilicity for regression tasks. These data are saved in folder "Datasets_demo.zip".
+ 
+</p>
+
+Firstly,
+
+```sh
+unzip Datasets_demo.zip
+```
+
+We provide ".csv" files of datasets, which contains "bbbp", "bace", "hiv", "freesolv", "lipophilicity", "eslo","clintox","sider","tox21","toxcast".
+
+For single task datasets, like "bbbp", "bace", "hiv", "freesolv", "lipophilicity", "eslo", use data_slit.py code to generate data.
 ```sh
 python data_slit.py
 ```
 
+For multiple task datasets, like "clintox","sider","tox21","toxcast", use "multitask_data_slit.py" code to generate data.
+```sh
+python multitask_data_slit.py
+```
+
+And we put data demo files "bbbp", "clintox" folder in "Datasets_demo", which are data with scaffold splitting using different random seeds.
 
 ## Training
 Before training codes, you need write the correct data files path in PyrMol/dataset_configs.json.

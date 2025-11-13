@@ -56,9 +56,7 @@ Firstly,
 unzip Datasets_demo.zip
 ```
 
-<p align="justify">
 We provide ".csv" files of datasets, which contains "bbbp", "bace", "hiv", "freesolv", "lipophilicity", "eslo","clintox","sider","tox21","toxcast".
-</p>
 
 For single task datasets, like "bbbp", "bace", "hiv", "freesolv", "lipophilicity", "eslo", use data_slit.py code to generate data.
 ```sh

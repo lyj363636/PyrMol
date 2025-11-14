@@ -73,9 +73,7 @@ And we put data demo files "bace", "clintox" folder in "Datasets_demo", which ar
 ## Training
 Before training codes, you need write the correct data files path in PyrMol/dataset_configs.json.
 
-And download Mol2Vec file from https://github.com/samoturk/mol2vec/blob/master/examples/models/model_300dim.pkl.
-
-Then put this file in same path with main_train.py.
+[And download Mol2Vec file from https://github.com/samoturk/mol2vec/blob/master/examples/models/model_300dim.pkl. Then put this file in same path with main_train.py.]: #
 
 Run the code in PyrMol_demo:
 
@@ -85,4 +83,5 @@ python main_train.py
 
 ## Models
 You can save Model in your file path.
-And we provide our model demo in "Version3_MultiSub_Contrastive/bace" folder. 
+We have uploaded all the data files and checkpoints to [Zenodo](https://markdown.com.cn). And we provide our model demo in "PyrMol/PyrMol_demo/Version3_MultiSub_Contrastive/bace" folder. You can download models in this folder and put them in same path.
+

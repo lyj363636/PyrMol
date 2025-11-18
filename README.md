@@ -56,7 +56,7 @@ Firstly,
 unzip Datasets_demo.zip
 ```
 
-We provide ".csv" files of datasets, which contains "bace", "bbbp", "hiv", "freesolv", "lipophilicity", "eslo","clintox","sider","tox21","toxcast".
+We provide ".csv" files of datasets, which contains "bace", "bbbp", "hiv", "freesolv", "lipophilicity", "eslo", "clintox", "sider", "tox21", and "toxcast".
 
 For single task datasets, like "bbbp", "bace", "hiv", "freesolv", "lipophilicity", "eslo", use data_slit.py code to generate data.
 ```sh
@@ -83,5 +83,5 @@ python main_train.py
 
 ## Models
 You can save Model in your file path.
-We have uploaded all the data files and checkpoints to [Zenodo](https://markdown.com.cn). And we provide our model demo in "PyrMol/PyrMol_demo/Version3_MultiSub_Contrastive/bace" folder. You can download models in this folder and put them in same path.
+We have uploaded all the data files and checkpoints to [Zenodo](https://zenodo.org/records/17605597). And we provide our model demo in "PyrMol/PyrMol_demo/Version3_MultiSub_Contrastive/bace" folder. You can download models in this folder and put them in same path.
 

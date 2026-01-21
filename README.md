@@ -68,7 +68,7 @@ For multiple task datasets, like "clintox","sider","tox21","toxcast", use "multi
 python multitask_data_slit.py
 ```
 
-And we put data demo files "bace", "clintox" folder in "Datasets_demo", which are data with scaffold splitting using different random seeds.
+And we put data demo files "bace" folder in "Datasets_demo", which are data with random scaffold splitting using different random seeds.
 
 ## Training
 Before training codes, you need write the correct data files path in PyrMol/dataset_configs.json.

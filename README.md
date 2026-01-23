@@ -83,5 +83,5 @@ python main_train.py
 
 ## Models
 You can save Model in your file path.
-We have uploaded all the data files and checkpoints to [Zenodo](https://zenodo.org/records/17605597). And we provide our model demo in "PyrMol/PyrMol_demo/Version3_MultiSub_Contrastive/bace" folder. You can download models in this folder and put them in same path.
+We have uploaded all the data files and checkpoints to [Zenodo](https://zenodo.org/records/18336615). And we provide our model demo in "PyrMol/PyrMol_demo/Version3_MultiSub_Contrastive/bace" folder. You can download models in this folder and put them in same path.
 
